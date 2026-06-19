@@ -1,0 +1,38 @@
+{
+  "name": "@omnflow/mcp-server",
+  "version": "1.0.0",
+  "description": "Omnflow MCP server — turn any content into platform-ready posts for Twitter/X, LinkedIn, Instagram, Email, and TikTok, plus Voice DNA analysis.",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai",
+    "content-repurposing",
+    "social-media",
+    "twitter",
+    "linkedin",
+    "instagram",
+    "tiktok",
+    "email",
+    "claude",
+    "cursor",
+    "n8n",
+    "omnflow"
+  ],
+  "homepage": "https://omnflow.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericharrisonecho-lima/omnflow-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ericharrisonecho-lima/omnflow-mcp/issues"
+  },
+  "author": "Omnflow",
+  "license": "MIT",
+  "mcp": {
+    "server": {
+      "name": "omnflow",
+      "url": "https://omnflow.com/api/mcp",
+      "transport": "http"
+    }
+  }
+}
